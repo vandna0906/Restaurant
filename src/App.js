@@ -1,12 +1,15 @@
 
 import './App.css';
 
-import {RestaurantList} from "./components/RestaurantList"
+import Todo from './components/CRUD/Todo';
+//import {RestaurantList} from "./components/RestaurantList"
 function App() {
   return (
     <h3>
       
-    <RestaurantList/>
+    <Todo/>
+
+    {/* <RestaurantList/> */}
     </h3>
     
   );
